@@ -4,10 +4,10 @@ using namespace std;
 
     
     int main(){
-    char tablero[6][7];
-    for (int i = 0; i < 6; i++)
+    char tablero[3][3];
+    for (int i = 0; i < 3; i++)
     {
-        for (int j = 0; j < 7; j++)
+        for (int j = 0; j < 3; j++)
         {
             tablero[i][j] = ' ';
         }
@@ -29,6 +29,7 @@ using namespace std;
         cout << "  " << j + 1 << " ";
     }
         cout << "\n";
+        cout << "HOla";
 
     }
     }
